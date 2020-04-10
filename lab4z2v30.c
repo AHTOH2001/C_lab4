@@ -60,7 +60,7 @@ int problem2()
             max = sm;
         if (sm < min)
             min = sm;
-        //printf("%s\n", s);
+        /*printf("%s\n", s);*/
     }
 
     y = min / 365;
@@ -89,5 +89,5 @@ int problem2()
         d = max % 30;
     }
     printf("%02d.%02d.%04d\n", d, m + 1, y);
-    //for (i=0;i<)
+    /*for (i=0;i<)*/
 }

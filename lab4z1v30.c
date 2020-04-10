@@ -10,7 +10,7 @@
 #define max 9223372036854775807
 int problem1()
 {
-    setlocale (LC_ALL, "ru_RU.CP866"); // выбрать локейл консоли!!
+    setlocale (LC_ALL, "ru_RU.CP866"); /* выбрать локейл консоли!!*/
     printf ("proga1\n(ctr+z or ctr+x or ctr+c to exit,\nhren znaet pochemu ctr+enter to new line)\n");
     char pc,c,ans[10000];
     int i=0;
@@ -27,7 +27,7 @@ int problem1()
         ans[i] = c;
         printf ("%c",c);
         i++;
-        //if (pc == '-' && c =='-') break;
+        /*if (pc == '-' && c =='-') break;*/
         pc = c;
     }
     
