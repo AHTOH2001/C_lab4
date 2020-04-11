@@ -7,13 +7,13 @@
 #define true 1
 #define false 0
 #define err -2000123000
-#define max 9223372036854775807
+#define max 2147483646
 int problem1()
 {
-    setlocale (LC_ALL, "ru_RU.CP866"); /* выбрать локейл консоли!!*/
-    printf ("proga1\n(ctr+z or ctr+x or ctr+c to exit,\nhren znaet pochemu ctr+enter to new line)\n");
     char pc,c,ans[10000];
     int i=0;
+    setlocale (LC_ALL, "ru_RU.CP866"); /* выбрать локейл консоли!!*/
+    printf ("proga1\n(ctr+z or ctr+x or ctr+c to exit,\nhren znaet pochemu ctr+enter to new line)\n");
     while (true)
     {
         c = getch();
@@ -33,5 +33,5 @@ int problem1()
     
 
     printf ("\n%s",ans);
-
+    return 0;
 }

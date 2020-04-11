@@ -90,4 +90,5 @@ int problem2()
     }
     printf("%02d.%02d.%04d\n", d, m + 1, y);
     /*for (i=0;i<)*/
+    return 0;
 }
